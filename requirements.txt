@@ -2,4 +2,4 @@ Flask
 celery
 redis
 flower
-importlib-metadata
+importlib-metadata==4.13.0
