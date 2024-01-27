@@ -7,8 +7,8 @@ logger = get_task_logger(__name__)
 app = Flask(__name__)
 
 # Add Redis configs
-app.config["CELERY_BROKER_URL"] = "redis://redis:6379/0"
-app.config["CELERY_RESULT_BACKEND"] = "redis://redis:6379/0"
+app.config["CELERY_BROKER_URL"] = "redis://red-cmqmsja1hbls73fl1hug:6379"
+app.config["CELERY_RESULT_BACKEND"] = "redis://red-cmqmsja1hbls73fl1hug:6379"
 
 # Connect Redis db
 redis_db = redis.Redis(
